@@ -1,0 +1,282 @@
+{
+
+     "barbaro": {
+
+          "dado_de_vida": 12,
+          "bonus_de_proficiencia": [ 2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6 ],
+          
+          "armaduras": [ "leves", "medias", "escudos" ],
+          "armas": [ "simples", "marciais" ],
+          "ferramentas": "nenhuma",
+
+          "equipamento_inicial": {
+
+               "escolha_equipamento1": [ "1 machado grande", "qualquer arma marcial corpo-a-corpo" ],
+               "escolha_equipamento2": [ "2 machadinhas", "qualquer arma simples" ],
+               "equipamento_constante": [ "1 pacote do explorador", "4 azagaias" ]
+
+          },
+          
+          "teste_de_resistencia": [ "forca", "constituicao" ],
+          "pericias_para_escolher": 2,
+          "pericias": [
+               
+               "adestrar_animais", 
+               "atletismo",
+               "intimidação",
+               "natureza",
+               "percepção",
+               "sobrevivência"
+
+          ],
+
+          "habilidade_principal": {
+
+               "furia_por_descanso": [ 2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,"infinito" ],
+               "dano_bonus_em_furia": [ 2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,5,4,4,4,4 ]
+
+          },
+
+          "habilidades": [
+
+               [
+                    {
+                         "nome": "furia",
+                         "descricao": "Ação Bônus; não pode estar usando armadura pesada.\n• Vantagem testes de Força e Testes de Resistência de Força.\n• Ataque corpo a corpo com Força ganha dano conforme tabela.\n• Resistência à dano de concussão, cortante e perfurante.\nNão pode soltar magias nem se concentrar nelas. Dura 1 minuto.\nTermina se ficar inconsciente, se não atacar um inimigo no seu turno\nou não sofrer dano desde seu ultimo turno. Recupera todos os usos com descanso longo."
+                    },
+                    {
+                         "nome": "defesa sem armadura",
+                         "descricao": "Quando não estiver usando armadura sua CA = 10 + mod Destreza + mod Constituição.\nPode usar escudo."
+                    }
+               ],
+               [
+                    {
+                         "nome": "ataque descuidado",
+                         "descricao": "No primeiro ataque corpo a corpo do turno pode faze-lo com vantagem, mas concede\nvantagem aos inimigos até seu próximo turno."
+                    },
+                    {
+                         "nome": "senso de perigo",
+                         "descricao": "Ganha vantagem nos Testes de Resistência de Destreza para efeitos que possa ver,\ncomo armadilhas e magias. Não pode estar cego, surdo ou incapacitado."
+                    }
+               ],
+               [
+                    {
+                         "nome": "caminho primitivo",
+                         "descricao": "Escolha entre o caminho do Berserker ou do Guerreiro Totêmico."
+                    }
+               ],
+               [
+                    {
+                         "nome": "aumento de atributo",
+                         "descricao": "Aumente um atributo em dois ou dois em um (Máximo 20)."
+                    }
+               ],
+               [
+                    {
+                         "nome": "ataque extra",
+                         "descricao": "Quando usar ação Atacar, pode atacar duas vezes."
+                    },
+                    {
+                         "nome": "movimentacao veloz",
+                         "descricao": "Seu deslocamento aumenta em 3 metros se não estiver usando armadura."
+                    }
+               ],
+               [
+                    "caracteristica de caminho"
+               ],
+               [
+                    {
+                         "nome": "instinto selvagem",
+                         "descricao": "Vantagem rolagens de iniciativa. Se for surpreendido e não estar incapacitado,\npode agir normalmente se entrar em fúria como primeira ação."
+                    }
+               ],
+               [
+                    {
+                         "nome": "aumento de atributo",
+                         "descricao": "Aumente um atributo em dois ou dois em um (Máximo 20)."
+                    }
+               ],
+               [
+                    {
+                         "nome": "critico brutal",
+                         "descricao": "Pode rolar 1 dado adicional da arma ao determinar dano crítico de um ataque corpo a corpo."
+                    }
+               ],
+               [
+                    "caracteristicas de caminho"
+               ],
+               [
+                    {
+                         "nome": "Fúria Implacável",
+                         "descricao": "Enquanto estiver em Fúria, se chegar a 0 PV mas não morrer, pode fazer Teste de\nResistência de Constituição (CD 10), se passar fica com 1 PV. Cada vez que usar\nisso após a primeira a CD aumenta em 5. Se terminar um descanso curto ou longo,\na CD volta a 10."
+                    }
+               ],
+               [
+                    {
+                         "nome": "aumento de atributo",
+                         "descricao": "Aumente um atributo em dois ou dois em um (Máximo 20)."
+                    }
+               ],
+               [
+                    {
+                         "nome": "critico brutal",
+                         "descricao": "Pode rolar 2 dados adicionais da arma ao determinar dano crítico de um ataque corpo a corpo."
+                    }
+               ],
+               [
+                    "caracteristicas de caminho"
+               ],
+               [
+                    {
+                         "nome": "furia persistente",
+                         "descricao": "Fúria só acaba se ficar inconsciente ou você decidir encerrá-la."
+                    }
+               ],
+               [
+                    {
+                         "nome": "aumento de atributo",
+                         "descricao": "Aumente um atributo em dois ou dois em um (Máximo 20)."
+                    }
+               ],
+               [
+                    {
+                         "nome": "critico brutal",
+                         "descricao": "Pode rolar 3 dados adicionais da arma ao determinar dano crítico de um ataque corpo a corpo."
+                    }
+               ],
+               [
+                    {
+                         "nome": "força invencivel",
+                         "descricao": "Se o resultado em um teste de Força for menor que o valor no atributo Força,\npode usar seu valor de atributo no lugar."
+                    }
+               ],
+               [
+                    {
+                         "nome": "aumento de atributo",
+                         "descricao": "Aumente um atributo em dois ou dois em um (Máximo 20)."
+                    }
+               ],
+               [
+                    {
+                         "nome": "campeao primitivo",
+                         "descricao" :"Sua Força e Constituição aumentam em 4. Seu valor máximo nestes atributos agora é 24."
+                    }
+               ]
+
+
+          ],
+
+          "caminhos_totemicos": {
+
+               "berserk": [
+
+                    {
+                         "nome": "frenezi",
+                         "nivel": 3,
+                         "descricao": "Pode entrar em Frenezi quando em fúria e fazer um ataque corpo a corpo como ação\nbônus. Quando terminar a fúria sofre um nível de exaustão."
+                    },
+                    {
+                         "nome": "furia inabalavel",
+                         "nivel": 6,
+                         "descricao": "Não pode ser amedrontado ou encantado quando em fúria. Se estiver amedrontado\nou encantado quando entrar em fúria o efeito é suspenso pela duração da fúria."
+                    },
+                    {
+                         "nome": "presenca intimidadora",
+                         "nivel": 10,
+                         "descricao": "Escolha uma criatura até 9 m de você. Se ela puder vê-lo ou ouvi-lo,\ndeve passar no teste de resistência de Sabedoria\n(CD = 8 + bônus de proficiência + mod de Carisma) ou fica amedrontada até o\nfinal do seu próximo turno. Em outros turnos você pode usar sua ação para\nprolongar o efeito. O efeito acaba se a criatura terminar o turno dela fora da\nlinha de visão ou a mais de 18 m de você. Se ela obter êxito no teste de\nresistência, você não pode afeta-la dessa maneira por 24 horas."
+                    },
+                    {
+                         "nome": "retaliacao",
+                         "nivel": 14,
+                         "descricao": "Quando sofrer dano de uma criatura à 1,5 m de você, pode usar sua reação para\nfazer um ataque corpo a corpo contra aquela criatura."
+                    }
+
+               ],
+
+               "guerreiro_totemico": [
+
+                    {
+                         "nome": "cacador espiritual e espirito totemico",
+                         "nivel": 3,
+                         "descricao": "Pode conjurar as magias falar com animas e sentido animal, mas somente como ritual.\nPode escolher qualquer um entre:\n\nUrso: Quando em fúria fica resistente a todos os tipos de dano,\nexceto psíquico.\n\nÁguia: Quando em fúria e sem usar armadura pesada, criaturas tem\ndesvantagem em ataques de oportunidade contra você e você pode usar ação corrida\ncomo ação bônus.\n\nLobo: Quando em fúria, seus aliados têm vantagem em ataque corpo a corpo\ncontra criaturas inimigas a 1,5m de você."
+                    },
+                    {
+                         "nome": "aspecto da fera",
+                         "nivel": 6,
+                         "descricao": "Pode escolher qualquer um entre:\n\nUrso: Sua capacidade de carga (incluindo carga máxima e sustentação)\né dobrada e você tem vantagem nos testes de Força feitos para empurrar,\npuxar, erguer ou quebrar objetos.\n\nÁguia: Consegue enxergar 1 milha (1,6km) sem dificuldade, podendo ver\ndetalhes como se estiver olhando a 30m. A penumbra não impõe desvantagem nos\ntestes de Sabedoria (Percepção).\n\nLobo: Consegue rastrear criaturas enquanto viaja rápido e pode se mover\nfurtivamente enquanto viaja em ritmo normal."
+                    },
+                    {
+                         "nome": "andarilho espiritual",
+                         "nivel": 10,
+                         "descricao": "Consegue conjurar magia comunhão com a natureza, como ritual.\nUma versão espiritual de um dos animais totêmicos aparece para dar a informação"
+                    },
+                    {
+                         "nome": "harmonizacao totemica",
+                         "nivel": 14,
+                         "descricao": "Pode escolher qualquer um entre:\n\nUrso: Quando em fúria, inimigos a 1,5m de você tem desvantagem em ataques\ncontra alvos que não sejam você ou outra pessoa com essa habilidade.\n\nÁguia: Quando em fúria, tem deslocamento de voo igual seu deslocamento em\nterra. Caí se terminar o turno no ar ou não ter algo lhe sustentando.\n\nLobo: Quando em fúria, pode usar uma ação bônus para derrubar uma criatura\ngrande ou menor que você acertar comum ataque corpo a corpo."
+                    }
+
+               ]
+
+          }
+
+     },
+     "bardo": {
+
+          "dado_de_vida": 8,
+          "bonus_de_proficiencia": [ 2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6 ],
+          
+          "armaduras": [ "leves" ],
+          "armas": [ "simples", "besta de mao", "espada curta", "espada longa", "rapieira" ],
+          "ferramentas": "3 intrumentos musicais",
+
+          "equipamento_inicial": {
+
+               "escolha_equipamento1": [ "1 florete", "1 espada longa", "qualquer arma simples" ],
+               "escolha_equipamento2": [ "1 pacote do diplomata", "1 pacote do artista" ],
+               "escolha_equipamento3": [ "1 alaúde", "qualquer outro instrumento musical" ],
+               "equipamento_constante": [ "1 corselete de couro", "1 adaga" ]
+
+          },
+          
+          "teste_de_resistencia": [ "destreza", "carisma" ],
+          "pericias_para_escolher": 3,
+          "pericias": [ "todas" ],
+
+          "habilidade_principal": {
+
+               "truques_conhecidos": [ 2,2,2,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4 ],
+               "magias_conhecidas": [ 4,5,6,7,8,9,10,11,12,14,15,15,16,18,19,19,20,22,22,22 ],
+               "magias": [
+                    
+                    [ 2,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4 ],
+                    [ 0,0,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3 ],
+                    [ 0,0,0,0,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3 ],
+                    [ 0,0,0,0,0,0,1,2,3,3,3,3,3,3,3,3,3,3,3,3 ],
+                    [ 0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,3,3,3 ],
+                    [ 0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,2,2 ],
+                    [ 0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,2 ],
+                    [ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1 ],
+                    [ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1 ]
+
+               ]
+
+          },
+
+          "habilidades": [],
+          "colegios de bardo": []
+
+
+     },
+     "bruxo": {},
+     "clerigo": {},
+     "druida": {},
+     "feiticeiro": {},
+     "guerreiro": {},
+     "guardiao": {},
+     "ladino": {},
+     "mago": {},
+     "monge": {},
+     "paladino": {}
+
+}
