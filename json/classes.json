@@ -263,9 +263,208 @@
 
           },
 
-          "habilidades": [],
-          "colegios de bardo": []
+          "habilidades": [
 
+               [
+                    {
+                         "nome": "magias conhecidas",
+                         "descricao": "Magias Conhecidas: Ao ganhar um nível pode trocar uma magia que conhece por\noutra de qualquer nível que possa conjurar."
+                    },
+                    {
+                         "nome": "atributo de conjuracao",
+                         "descricao": "Carisma é o atributo de conjuração.\n\nCD de resistência a magia = 8 + bônus de proficiência + mod de Carisma\n\nAtaque com magia = bônus de proficiência + mod de Carisma"
+                    },
+                    {
+                         "nome": "ritual",
+                         "descricao": "Pode conjurar magias de bardo como ritual se elas tiverem esta opção e\nprecisa ter ela preparada."
+                    },
+                    {
+                         "nome": "foco de conjuracao",
+                         "descricao": "Você pode usar um instrumento musical como foco."
+                    },
+                    {
+                         "nome": "insíracao do bardo (d6)",
+                         "descricao": "Com uma ação bônus escolha uma criatura até 18 m que possa ouvi-lo. Ela\nganha um dado de inspiração, d6. Uma vez, dentro de 10 minutos, ela pode rolar\no dado e adicionar o valor a uma rolagem de teste de atributo, ataque ou\nteste de resistência. Pode usar isso depois de rolar o d20, mas antes do Mestre\ndizer se foi bem sucedido ou não. Quando usado, ele é perdido.\nUma criatura só pode ter um dado de inspiração por vez. Pode usar essa\ncaracterística um numero de vezes igual seu mod de Carisma (mínimo 1).\nRecuperar todos os usos com um descanso longo."
+                    }
+               ],
+               [
+                    {
+                         "nome": "pau pra toda obra",
+                         "descricao": "Pode adicionar metade do seu bônus de proficiência, arredondado para baixo,\nem qualquer teste de atributo que faça onde não inclua ainda o seu bônus\nde proficiência."
+                    },
+                    {
+                         "nome": "cancao do descanso (d6)",
+                         "descricao": "Durante um descanso curto, faz uma canção. Você e qualquer criatura que possa\nlhe ouvir recupera 1d6 pontos de vida ao final do descanso."
+                    }
+               ],
+               [
+                    {
+                         "nome": "colegio de bardo",
+                         "descricao": "Escolha entre o Colégio da Bravura e Colégio do Saber."
+                    },
+                    {
+                         "nome": "especialista",
+                         "descricao": "Escolha duas pericias que seja proficiente. Seu bônus de proficiência é\ndobrado em qualquer teste de resistência usando uma delas."
+                    }
+               ],
+               [
+                    {
+                         "nome": "aumento de atributo",
+                         "descricao": "Aumente um atributo em dois ou dois em um (Máximo 20)."
+                    }
+               ],
+               [
+                    {
+                         "nome": "inspiracao do bardo (d8)",
+                         "descricao": "O dado aumenta para um d8."
+                    },
+                    {
+                         "nome": "fonte de inspiracao",
+                         "descricao": "Recupera todos os usos de Inspiração de Bardo com descanso curto ou longo."
+                    }
+               ],
+               [
+                    {
+                         "nome": "desencantador",
+                         "descricao": "Com uma ação pode iniciar uma atuação que dura até o fim do seu próximo turno.\nPor este tempo, você e criaturas aliadas até 9 m de você tem vantagem em\ntestes de resistência contra se amedrontado ou encantado. A criatura deve ser\ncapaz de ouvi-lo para ganhar este beneficio. A atuação termina antes se você\nficar incapacitado, for silenciado ou resolver terminá-la (não gasta ação)."
+                    },
+                
+                    "caracteristica de colegio de bardo"
+               ],
+               [
+                    "nada"
+               ],
+               [
+                    {
+                         "nome": "aumento de atributo",
+                         "descricao": "Aumente um atributo em dois ou dois em um (Máximo 20)."
+                    }
+               ],
+               [
+                    {
+                         "nome": "cancao do descanso (d8)",
+                         "descricao": "O dado aumenta para um d8"
+                    }
+               ],
+               [
+                    {
+                         "nome": "inspiracao do bardo (d10)",
+                         "descricao": "O dado aumenta para um d10."
+                    },
+                    {
+                         "nome": "especialista",
+                         "descricao": "Escolha mais duas pericias que seja proficiente. Seu bônus de proficiência é\ndobrado em qualquer teste de resistência usando uma delas."
+                    },
+                    {
+                         "nome": "segredos magicos",
+                         "descricao": "Escolha duas magias de qualquer classe, incluindo esta, e adicione às conhecidas.\nDevem ser de um nível você possa conjurar. Contam como magias de bardo e são\nincluídas no numero de agias Conhecidas."
+                    }
+               ],
+               [
+                    "nada"
+               ],
+               [
+                    {
+                         "nome": "aumento de atributo",
+                         "descricao": "Aumente um atributo em dois ou dois em um (Máximo 20)."
+                    }
+               ],
+               [
+                    {
+                         "nome": "cancao do descanso (d10)",
+                         "descricao": "O dado aumenta para um d10."
+                    }
+               ],
+               [
+                    {
+                         "nome": "segredos magicos",
+                         "descricao": "Escolha duas magias de qualquer classe, incluindo esta, e adicione às conhecidas.\nDevem ser de um nível você possa conjurar. Contam como magias de bardo e são\nincluídas no numero de agias Conhecidas."
+                    },
+
+                    "característica de colégio de bardo"
+               ],
+               [
+                    {
+                         "nome": "inspiracao do bardo (d12)",
+                         "descricao": "O dado aumenta para um d12."
+                    }
+               ],
+               [
+                    {
+                         "nome": "aumento de atributo",
+                         "descricao": "Aumente um atributo em dois ou dois em um (Máximo 20)."
+                    }
+               ],
+               [
+                    {
+                         "nome": "cancao do descanso (d12)",
+                         "descricao": "O dado aumenta para um d12."
+                    }
+               ],
+               [
+                    {
+                         "nome": "segredos magicos",
+                         "descricao": "Escolha duas magias de qualquer classe, incluindo esta, e adicione às conhecidas.\nDevem ser de um nível você possa conjurar. Contam como magias de bardo e são\nincluídas no numero de agias Conhecidas."
+                    }
+               ],
+               [
+                    {
+                         "nome": "aumento de atributo",
+                         "descricao": "Aumente um atributo em dois ou dois em um (Máximo 20)."
+                    }
+               ],
+               [
+                    {
+                         "nome": "inspiracao superior",
+                         "descricao" : "Quando você rolar iniciativa e não tiver usos de Inspiração de Bardo sobrando,\nvocê recupera um uso."
+                    }
+               ]
+
+          ],
+
+          "colegios de bardo": {
+
+               "colegio da bravura": [
+
+                    {
+                         "nome": "proficiencia bonus e inspiracao de combate",
+                         "nivel": 3,
+                         "descricao": "Você ganha proficiência em armaduras médias, escudos e armas marciais.\nO alvo de uma Inspiração do Bardo pode rolar o dado e adicionar ao dano da arma,\nquando fizer um ataque. Além disso, quando um ataque for feito contra esta\ncriatura ela usar sua própria reação, rolar o dado de Inspiração e adicioná-lo\nna sua CA após a rolagem, mas antes de saber se o ataque acertou ou errou."
+                    },
+                    {
+                         "nome": "ataque extra",
+                         "nivel": 6,
+                         "descricao": "Quando usar ação Atacar, pode atacar duas vezes."
+                    },
+                    {
+                         "nome": "combatente magico",
+                         "nivel": 14,
+                         "descricao": "Ao conjurar uma magia de bardo, pode fazer um ataque com sua arma com uma ação bônus"
+                    }
+
+               ],
+
+               "colegio do saber": [
+
+                    {
+                         "nome": "proficiencia bonus e palavras cortantes",
+                         "nivel": 3,
+                         "descricao": "Você ganha proficiência em três perícias a sua escolha. Quando uma criatura a\naté 18m que você possa ver fizer um ataque, teste de atributo ou rolagem de\ndano, você pode usar sua reação gastando um uso de Inspiração de Bardo.\nRole o dado e subtraia o valor da rolagem da criatura. Pode ser feito após a\nrolagem, mas antes de saber se a rolagem obteve sucesso ou não, ou antes\nde ser rolado o dano. A criatura fica imune a isso se não puder ouvi-lo ou for\nimune a se encantada."
+                    },
+                    {
+                         "nome": "segredos magicos adicionais",
+                         "nivel": 6,
+                         "descricao": "Escolha duas magias de qualquer classe, incluindo esta, e adicione às conhecidas.\nDevem ser de um nível você possa conjurar. Contam como magias de bardo e são\nincluídas no numero de magias conhecidas."
+                    },
+                    {
+                         "nome": "habilidade inigualavel",
+                         "nivel": 14,
+                         "descricao": "Quando fizer um teste de atributo, pode gastar um uso de Inspiração de Bardo.\nRole o dado e adicione o valor ao seu teste. Pode optar fazer isso depois da rolagem,\nmas antes de saber se a rolagem obteve sucesso ou não."
+                    }
+
+               ]
+
+          }
 
      },
      "bruxo": {},
