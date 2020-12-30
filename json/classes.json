@@ -467,7 +467,49 @@
           }
 
      },
-     "bruxo": {},
+     "bruxo": {
+
+          "dado_de_vida": 8,
+          "bonus_de_proficiencia": [ 2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6 ],
+          
+          "armaduras": [ "leves" ],
+          "armas": [ "simples" ],
+          "ferramentas": "nenhuma",
+
+          "equipamento_inicial": {
+
+               "escolha_equipamento1": [ "1 besta leve com 20 vioretes", "qualquer arma simples" ],
+               "escolha_equipamento2": [ "1 bolsa de componentes", "1 foco arcano" ],
+               "escolha_equipamento3": [ "1 pacote de estudioso", "1 pacote de masmorra" ],
+               "equipamento_constante": [ "1 corselete de couro", "2 adaga", "qualquer arma simples" ]
+
+          },
+          
+          "teste_de_resistencia": [ "sabedoria", "carisma" ],
+          "pericias_para_escolher": 2,
+          "pericias": [
+               
+               "arcanismo",
+               "enganação",
+               "história",
+               "intimidação",
+               "investigação",
+               "natureza",
+               "religião"
+          
+          ],
+
+          "habilidade_principal": {
+
+               "truques_conhecidos": [ 2,2,2,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4 ],
+               "magias_conhecidas": [ 2,3,4,5,6,7,8,9,10,10,11,11,12,12,13,13,14,14,15,15 ],
+               "espacos_de_magia": [ 1,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,4,4,4,4 ],
+               "nivel_de_magia": [ 1,1,2,2,3,3,4,4,5,5,5,5,5,5,5,5,5,5,5,5 ],
+               "invocacoes_conhecidas": [ 0,2,2,2,3,3,4,4,5,5,5,6,6,6,7,7,7,8,8,8 ]
+
+          }
+
+     },
      "clerigo": {},
      "druida": {},
      "feiticeiro": {},
