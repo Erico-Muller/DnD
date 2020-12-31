@@ -507,7 +507,45 @@
                "nivel_de_magia": [ 1,1,2,2,3,3,4,4,5,5,5,5,5,5,5,5,5,5,5,5 ],
                "invocacoes_conhecidas": [ 0,2,2,2,3,3,4,4,5,5,5,6,6,6,7,7,7,8,8,8 ]
 
-          }
+          },
+
+          "habilidades": [
+
+               [
+                    {
+                         "nome": "patrono extraplanar",
+                         "descricao": "Para o pacto escolha entre: o Feérico, o Infernal ou o Grande Antigo."
+                    },
+                    {
+                         "nome": "espacos de magia",
+                         "descricao": "Todos os seus espaços de magia são do mesmo nível, sendo o mais alto que você\npode conjurar. Você recupera todos os seus espaços de magia quando terminar um\ndescanso curto ou longo."
+                    },
+                    {
+                         "nome": "magias conhecidas",
+                         "descricao": ""
+                    }
+               ],
+               [],
+               [],
+               [],
+               [],
+               [],
+               [],
+               [],
+               [],
+               [],
+               [],
+               [],
+               [],
+               [],
+               [],
+               [],
+               [],
+               [],
+               [],
+               []
+
+          ]
 
      },
      "clerigo": {},
