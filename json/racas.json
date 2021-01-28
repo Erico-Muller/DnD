@@ -1,0 +1,56 @@
+{
+
+    "anão": {
+
+        "ajuste_de_atributo": { "constituicao": 2 },
+        "idade": { "adultos_aos": 50, "vivem_ate": 350 },
+        "tendencia_comum": [ "caótico", "bom" ],
+        "tamanho_e_peso": {
+
+            "altura": {"min": 1.20, "max": 1.50},
+            "peso_medio": 75
+
+        },
+        "deslocamento": 7.5,
+
+        "habilidades": {
+
+            "visao_no_escuro": "Trata escuridão a 18m (12quadrados) como penumbra e penumbra como claridade.",
+            "resiliencia_dos_anoes": "Resistência a dano de veneno e vantagem em testes de resistência contra veneno.",
+            "treinamento_de_combate_dos_anoes": "Proficiência com machado de guerra, machadinha, martelo de arremesso, martelo de guerra.",
+            "proficiencia_em_ferramentas": "Proficiência em um entre ferramentas de ferreiro, pedreiro ou cervejeiro.",
+            "ligacao_com_rochas": "Adiciona dobro de proficiência em história relacionado à origem de trabalhos de pedra."
+
+        },
+
+        "idiomas": ["comum", "anão"],
+
+        "sub_racas": {
+
+            "anao_da_colina": {
+                
+                "ajuste_de_atributo": { "sabedoria": 1 },
+                "resiliencia_dos_anoes": { "pv_adicionais_por_nivel": 1 }
+            },
+            "anao_da_montanha": {
+
+                "ajuste_de_atributo": { "forca": 2 },
+                "treino_em_armaduras_dos_anoes": "Proficiência em Armaduras leves e médias."
+
+            }
+
+        }
+
+    },
+
+    "elfo": {},
+    "halfling": {},
+    "humano": {},
+    "draconato": {},
+    "gnomo": {},
+    "meio-elfo": {},
+    "tiefling": {},
+    "meio-orc": {}
+
+
+}
